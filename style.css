@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Instrument Sans', sans-serif;
+    color: black;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background: #f2f2f2;
+    padding: 20px 40px;
+    margin: 0 px;
+    
+    
+
+}
+
+.logo img{
+    width: 200px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+nav ul li:last-child a {
+    border: 1px solid #000; 
+    padding: 6px 12px;            
+}
+
+.subheader {
+    background-color: #f2f2f2;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 40px;
+}
+
+.subheader ul {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    list-style: none;
+    padding: 0;
+}
+
+.subheader ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+.subheader ul li a:hover {
+    color: #ff4500;
+}
+
+.hero {
+    background-color: #ff4000;
+    padding: 60px 60px;            
+    max-width: 1300px;              
+    min-height: 500px;              
+    margin: 60px auto;              
+    border-radius: 30px;            
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 56px;                
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    font-family: 'Georgia', serif;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;              
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.search-box input {
+    flex: 1;
+    padding: 14px 20px;             
+    border: none;
+    font-size: 16px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-box button {
+    background-color: #f90;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #e58000;      
+}
+
+.subhero {
+    text-align: center;
+    margin: 100px;
+}
+
+.subhero ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 170px;
+    padding: 0;
+    justify-content: center;
+}
+
+.subhero img{
+    width: 200px;
+    height: 200px;
+}
