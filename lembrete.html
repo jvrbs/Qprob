@@ -6,13 +6,13 @@
     <title>Qprob</title>
     <meta name="description" content="Qprob menos gastos, mais soluções">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="lembrete.css">
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="imagens/QPROB (4).png" type="image/png">
 </head>
 <body>
     <header>
-        <div class="logo"> <img src="imagens/QPROB (3) (1).png" alt="logo"></div>
+        <div class="logo"> <a href="index.html"><img src="imagens/QPROB (3) (1).png" alt="Logo"></a></div>
         <nav>
             <ul>
             <li><a href="#">Entrar</a></li>
@@ -31,22 +31,17 @@
                 <li><a href="#">Afilie-se</a></li>
             </ul>
         </div>
-        <section class="hero">
-            <h1>Encontre o serviço doméstico<br>que você precisa</h1>
-            
-            <form class="search-box">
-                <input type="text" placeholder="O que você procura? Ex.: Trocar lâmpada">
-                <button type="submit"><img src="imagens/magnifying-glass (2).png" alt="search"></button> 
-            </form>
-        </section>    
-        <section class="subhero">
-            <ul>
-                <li><img src="imagens/comment.png" alt="Lembretes"><figcaption>Lembretes</figcaption></li>
-                <li><img src="imagens/bookmark.png" alt="Checklist"><figcaption>Checklist</figcaption></li>
-
-            </ul>
-        </section>    
-    </footer>
+        <div class="hero">
+            <h1>Agendar Lembretes</h1>
+            <img src="imagens/calendar.png" alt="calendario">
+            <p>Serviço</p>
+            <label for="Serviços">Escolha uma opção:</label>
+            <select id="Serviços" name="minhaCombo">
+                <option value="opcao1">Troca de óleo</option>
+                <option value="opcao2">Troca de resistor</option>
+                <option value="opcao3"></option>
+            </select>
+        </div>
     
 </body>
 </html>

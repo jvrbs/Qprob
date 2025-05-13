@@ -1,0 +1,78 @@
+.hero {
+    background-color: #ff4000;
+    padding: 60px 60px;            
+    max-width: 1300px;              
+    min-height: 500px;              
+    margin: 60px auto;              
+    border-radius: 30px;            
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 56px;                
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    font-family: 'Georgia', serif;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;              
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.search-box input {
+    flex: 1;
+    padding: 14px 20px;             
+    border: none;
+    font-size: 16px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-box button {
+    background-color: #f90;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #e58000;      
+}
+
+.subhero {
+    text-align: center;
+    margin: 100px;
+
+}
+
+.subhero ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 170px;
+    padding: 0;
+    justify-content: center;
+}
+
+.subhero img{
+    width: 200px;
+    height: 200px;
+}
+
+.subhero figcaption{
+    font-weight: bold;
+
+}
